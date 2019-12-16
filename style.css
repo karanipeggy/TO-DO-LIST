@@ -1,0 +1,70 @@
+body, html {
+    background-color: #f28179;
+    text-align: center;
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#todoform {
+    height: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.input-field {
+    width: 90%;
+    border: none;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.submit-button {
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    color: #7a9ff5;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.todo-list {
+    background-color: #ffffff;
+    list-style: none;
+    text-align: left;
+    padding: 8px;
+}
+
+.todo-list-item {
+    padding: 12px 0px;
+    border-bottom: 1px solid #a9c0f5;
+    display: flex;
+    align-items: center;
+}
+
+.remove-todo-button {
+    background-color: #f28179;
+    border: none;
+}
+
+.clear {
+    margin-top: 8px;
+    text-align: right;
+}
+
+.clear-button {
+    background-color: transparent;
+    color: #f28179;
+    text-transform: capitalize;
+    border: none;
+}
+
+button {
+    cursor: pointer;
+}

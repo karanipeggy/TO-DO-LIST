@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To do list</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h3>TO-DO LIST</h3>
+    </header>
+
+    <main>
+        <div class="container">
+            <form id="todoform">
+                <input type="text" id="todoinput" class="input-field" name="" placeholder="new task">
+                <button type="button" class="submit-button" onclick="todolist()">Add</button>
+            </form>
+
+            <ul class="todo-list">
+                <li class="todo-list-item">
+                    <button class="remove-todo-button" type="button">x</button>
+                    <input type="checkbox" name="" id="">
+                    <span>Vanilla JavaScript</span>
+                </li>
+
+                <li class="todo-list-item">
+                    <button class="remove-todo-button" type="button">x</button>
+                    <input type="checkbox" name="" id="">
+                    <span>Angular.js</span>
+                </li>
+
+                <li class="todo-list-item">
+                    <button class="remove-todo-button" type="button">x</button>
+                    <input type="checkbox" name="" id="">
+                    <span>React.js</span>
+                </li>
+
+                <li class="todo-list-item">
+                    <button class="remove-todo-button" type="button">x</button>
+                    <input type="checkbox" name="" id="">
+                    <span>Node.js</span>
+                </li>
+
+                <div class="clear">
+                    <button type="button" class="clear-button" onclick="todolist()">Clear</button>
+                </div>
+            </ul>
+        </div>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
